@@ -15,3 +15,4 @@ $sudo chown maxscale.maxscal /pathtomaxscale/.secrets
 $sudo restorecon -Rv /pathtomaxscale/
 $maxpasswd /pathtomaxscale/ your_password
 </code></pre>
+### 3、maxscale 只实现读写分离并没有实现故障转移
